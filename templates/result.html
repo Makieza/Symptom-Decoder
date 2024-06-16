@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diagnosis Result</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles(1).css') }}">
+</head>
+<body>
+    <h1>Diagnosis Result</h1>
+    <p>Predicted disease: <strong>{{ disease }}</strong></p>
+    <h2>First Aid and Prevention Advice:</h2>
+    <p>{{ advice }}</p>
+    <a href="/">Go back</a>
+</body>
+</html>
